@@ -1,0 +1,15 @@
+john --format=nt --wordlist=/usr/share/wordlists/rockyou.txt /home/sas/Downloads/ntlm.txt (NTLM hash format)
+
+john --format=(any formate of hash) --wordlist=/usr/share/wordlists/rockyou.txt /home/sas/Downloads/ntlm.txt
+
+john --wordlist=/usr/share/wordlists/rockyou.txt /home/sas/Downloads/ntlm.txt (for general purpose)
+
+unshadow [path to passwd] [path to shadow]
+
+unshadow local_passwd local_shadow > unshadowed.txt
+
+zip2john secure.zip > secure.txt
+
+rar2john secure.rar > secure1.txt
+
+ssh2john idrsa.id_rsa > idrsa.txt
